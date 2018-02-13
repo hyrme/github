@@ -52,7 +52,7 @@ body .article_list {
 	margin-left: auto;
 	margin-right: auto;
 }
-body h1,body h2,body p {
+body h1,body h2,body p.essay {
  	margin:12px 0px;
 }
 
@@ -63,7 +63,7 @@ body span.author {
 	color:#808080;
 }
 
-body p{
+body p.essay{
 	text-indent: 2em;
 	line-height:24px;
 }
@@ -137,8 +137,6 @@ aside pre.title {
 }
 
 aside p.description {
-	padding: 0;
-	margin: 0;
 	text-indent: 0em;
 	color: #9c9c9c;
 	font-size:12px;
@@ -186,7 +184,7 @@ footer {
 	text-align:center;
 }
 
-footer p {
+footer p.copyright {
 	padding:0;margin:0;
 	line-height:70px;
 }
