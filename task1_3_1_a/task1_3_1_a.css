@@ -1,0 +1,71 @@
+html {
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img,figure {
+	padding:0px;margin:0;
+}
+
+.main {
+	margin:20px;
+	border:1px solid #999;
+	border-radius:2px;
+	padding:10px;
+	background-color:#eee;
+	overflow:hidden;
+}
+
+.left {
+	margin:10px;
+	padding:10px;
+	border:1px solid #999;
+	border-radius:2px;
+	width:180px;
+	background-color:#fff;
+	float:left;
+}
+
+.team_logo {
+	margin:10px;
+	width:40%;
+}
+
+.team_name {
+	margin:10px;
+	vertical-align:top;
+	display: inline-block;
+}
+
+.middle {
+	margin-left:230px;
+	margin-right:150px;
+	margin-top:10px;
+	padding:10px;
+	border:1px solid #999;
+	border-radius:2px;
+	background-color:#fff;
+	/*left:220px;*/
+}
+
+.article {
+	margin:10px;
+}
+.intr_p {
+	margin:12px;
+}
+
+.right {
+	margin:10px;
+	border:1px solid #999;
+	border-radius:2px;
+	padding:10px;
+	background-color: #fff;
+	width:100px;
+	float:right;
+}
+
+.member_photo {
+	margin:10px;
+	width:80%;
+}
